@@ -1,5 +1,5 @@
 <div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text">
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/MiniHawkIso.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/MiniHawkIso.png" width="400" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/MiniHawkIso.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/MiniHawkIso.png" width="400" style="max-width: 100%;"></a></p>
 <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迷你鹰垂直起降</font></font><a name="user-content-head-brief"></a></h1><a id="user-content-minihawk-vtol-" class="anchor" aria-label="永久链接：MiniHawk-VTOL" href="#minihawk-vtol-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MiniHawk VTOL 是一款 3D 打印的三旋翼/固定翼混合飞机，能够垂直起飞和降落。与其前身</font></font><a href="https://diydrones.com/profiles/blogs/the-orange-hawk-tricopter-flying-wing-vtol-uav" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OrangeHawk VTOL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一样，MiniHawk 旨在用于 R/C、FPV 和 UAV 实验。此存储库中提供了机械图稿、构建说明和配置设置。</font></font></p>
 <blockquote>
@@ -474,138 +474,7 @@ Supporting Devices and Parts
 |-- STEP/STP Version of the Hatch/Lid for Community Mods
     |-- MH7_Hatch_RELEASED.stp
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="MiniHawk-VTOL Version 2.1 Aircraft
-|-- Fuselage/Body  
-|   |-- Empennage/Tail
-|   |   |-- Print Option 1: As a Single Part - No Split, but layers are not aligned for max. strength
-|   |   |   |-- MH7_Empennage-Full.stl
-|   |   |
-|   |   |-- Print Option 2: Split into Two Parts with print layers aligned for strength
-|   |       |-- Print Option 2a: Explicit Print Supports
-|   |       |   |-- MH7_Empennage-PrintSupports.stl
-|   |       |
-|   |       |-- Print Option 2b: No Explicit Print Supports, plain part
-|   |           |-- MH7_Empennage.stl
-|   |
-|   |-- Nose
-|   |   |-- Print Option 1: Full Nose - No Split
-|   |   |   |-- MH7_Nose.stl
-|   |   |
-|   |   |-- Print Option 2: Nose in Two Pieces
-|   |       |-- MH7_Nose_A.stl
-|   |       |-- MH7_Nose_B.stl
-|   |
-|   |-- Avionics (Flight Controller) Tray
-|   |   |-- Part Variant: Solid Tray, No Vibration Dampening
-|   |   |   |-- MH7_AvionicsTray.stl
-|   |   |
-|   |   |-- Part Variant: Leaf-Spring Compliant-Mechanism Vibration-Dampening Version
-|   |       |-- MH7_AvionicsTray2.stl
-|   |
-|   |-- Battery Tray
-|       |-- MH7_BatteryTray.stl
-|
-|-- Hatch/Lid
-|   |-- Part Variant: FPV 16mm-sized Camera and VTx Support
-|   |   |-- Print Option 1: Long-axis Symmetric Half (TODO: Needs to be restored to -Full)
-|   |   |   |-- MH7_Hatch-FPV-16mm.stl
-|   |   |
-|   |   |-- Print Option 2: Split into Two Parts for nicer print
-|   |       |-- MH7_Hatch-FPV-16mm_a.stl
-|   |       |-- MH7_Hatch-FPV-16mm_b.stl
-|   |
-|   |-- Part Variant: Vented with NACA Duct
-|   |   |-- Print Option 1: Entire thing, split it yourself
-|   |   |   |-- MH7_Hatch-Vented.stl
-|   |   |
-|   |   |-- Print Option 2: Split into Two Parts for nicer print
-|   |       |-- MH7_Hatch-Vented_a.stl
-|   |       |-- MH7_Hatch-Vented_b.stl
-|   |
-|   |-- Locking Latch Mechanism
-|       |-- MH7_Hatch_LockingLatch.stl
-|       |-- 1.85mm Steel Pin, Length=30mm
-|
-|-- Left Wing  
-|   |-- Part Variant: Plain Wing
-|   |   |-- Print Option 1: Entire wing
-|   |   |   |-- MH7_WingLeft.stl
-|   |   |
-|   |   |-- Print Option 2: Split into Two Parts for smaller printers
-|   |       |-- MH7_WingLeft_A.stl
-|   |       |-- MH7_WingLeft_B.stl
-|   |
-|   |-- Part Variant: Solar Wing
-|   |   |-- Print Option 1: Entire wing
-|   |   |   |-- MH7_WingLeft-Solar.stl
-|   |   |
-|   |   |-- Print Option 2: Split into Two Parts for smaller printers
-|   |       |-- MH7_WingLeft_A.stl
-|   |       |-- MH7_WingLeft_B.stl
-|   |
-|   |-- Elevon Control Horn
-|       |-- MH7_ControlHorn.stl
-|
-|-- Left Fin  
-|   |-- MH7_FinLeft_Lower.stl  
-|   |-- MH7_FinLeft_Upper.stl  
-|
-|-- Left Nacelle
-|   |-- Part Variant: Ball Bearing Version
-|   |   |-- MH7_Nacelle_A-Bearing.stl
-|   |   |-- MH7_Nacelle_B-Bearing.stl
-|   |
-|   |-- Part Variant: Non-Ball Bearing Version
-|   |   |-- MH7_Nacelle_A-NoBearing.stl
-|   |   |-- MH7_Nacelle_B-NoBearing.stl
-|   |
-|   |-- Motor Tilt-Mount
-|       |-- Part Variant: Ball Bearing Version
-|       |   |-- MH7_TiltMount_A-Bearing.stl
-|       |   |-- 3mm Shaft or Threaded Bolt, Length=44mm
-|       |
-|       |-- Part Variant: Non-Ball Bearing Version
-|       |   |-- MH7_TiltMount_A-NoBearing.stl
-|       |   |-- 1.85mm Steel Pin, Length=40mm
-|       |
-|       |-- MH7_TiltMount_B.stl
-|       |-- BLDC Motor
-|    
-|-- Left Winglet
-|   |-- Part Variant: Plain Winglet
-|   |   |-- MH7_WingletLeft.stl
-|   |
-|   |-- Part Variant: GPS Pocket
-|       |-- MH7_WingletLeft-GPS.stl
-|
-|-- Right {Wing, Fin, Nacelle, Motor Tilt-Mount, Winglet} 
-|   |-- For each of the symmetric parts, to create the right-side version, simply mirror the part in your slicer software. 
-        Be _very careful_ please! Be sure you understand how all the parts go together, particularly the Nacelle pieces: 
-        The nacelle _A piece is always near the aircraft center body, with the _B piece on the outboard side, aligned with 
-        the servos and away from the center body. You should print four unique Nacelle pieces, with no two alike: 
-        Two non-mirrored pieces of _A and _B, and two mirrored pieces of _A and _B.
-
-Supporting Devices and Parts
-|-- Weight &amp; Balance Jackpoint Stand
-|   |-- Nacelle-Support Beam
-|   |   |-- MH7_WeightBalanceStand_Beam.stl
-|   |   |-- MH7_WeightBalanceStand_Support.stl
-|   |   |-- Two 1.85mm Steel Pins, Length=50mm each
-|   |
-|   |-- Empennage-Support Jack
-|       |-- MH7_WeightBalanceStand_Foot.stl
-|       |-- MH7_WeightBalanceStand_Support.stl (After gluing, bend the legs with hot water to form a triangle stance)
-|       |-- 1.85mm Steel Pin, Length=50mm
-|
-|-- STEP/STP Version of the Hatch/Lid for Community Mods
-    |-- MH7_Hatch_RELEASED.stp" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建序列</font></font><a name="user-content-buildseq-brief"></a></h1><a id="user-content-build-sequence-" class="anchor" aria-label="永久链接：构建序列" href="#build-sequence-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下说明假设已打印了整套机身部件，如上文所述。有关</font><font style="vertical-align: inherit;">每个部件的典型切片机设置的详细信息，请参阅</font></font><a href="#3dprinting-brief"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3D 打印指南部分。此外，3MF 生产文件可在</font></font></a><font style="vertical-align: inherit;"></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/3mf-Implementations"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3mf-Implementations</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> repo 文件夹中找到，但打印设置是否正确传输到您的特定打印机则有点冒险。</font></font></p>
@@ -623,73 +492,73 @@ Supporting Devices and Parts
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-1.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-1.png" alt="图1" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-1.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-1.png" alt="图1" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 1. 铰链销间隙</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-2.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-2.png" alt="图 2" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-2.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-2.png" alt="图 2" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 2. 升降副翼运动切入</font></font></td>
   </tr>
 </tbody></table> 
 <ol start="3" dir="auto">
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用薄/中等氰基丙烯酸酯将顶篷/舱盖各部分粘合在一起，然后放在一边固化。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-3.png" title="图 3 - 舱口/盖子粘合"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 3</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用薄/中等氰基丙烯酸酯将顶篷/舱盖各部分粘合在一起，然后放在一边固化。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-3.png" title="图 3 - 舱口/盖子粘合"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 3</font></font></a></p>
 </li>
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用氰基丙烯酸酯将尾翼两半粘合在一起。（如果您打印的是全单件版本，请跳过此步骤。）放在一边固化。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-4.png" title="图 4-尾翼两半粘合"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 4</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用氰基丙烯酸酯将尾翼两半粘合在一起。（如果您打印的是全单件版本，请跳过此步骤。）放在一边固化。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-4.png" title="图 4-尾翼两半粘合"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 4</font></font></a></p>
 </li>
 </ol>
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-3.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-3.png" alt="图 3" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-3.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-3.png" alt="图 3" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 3. 舱口/盖子粘合</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-4.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-4.png" alt="图 4" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-4.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-4.png" alt="图 4" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 4. 尾翼两半粘合</font></font></td>
   </tr>
 </tbody></table> 
 <ol start="5" dir="auto">
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将控制喇叭部件压入升降副翼以测试配合度。控制喇叭从顶部插入，穿过升降副翼，孔位于铰链线下方的中心，与升降副翼伺服连杆成一线。部件应与升降副翼顶面齐平，大约高出表面 0.5 毫米。配合应紧密，但不要用力过猛地压入控制喇叭，否则可能会分裂打印层并造成损坏。如果太紧，请小心地从升降副翼的插槽中雕刻掉任何毛刺或过度挤压，或将控制喇叭打磨得更薄。使用氰基丙烯酸酯将控制喇叭部件 (2) 粘合到每个升降副翼（左翼和右翼）中。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-5.png" title="图 5-升降副翼控制喇叭安装"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 5</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将控制喇叭部件压入升降副翼以测试配合度。控制喇叭从顶部插入，穿过升降副翼，孔位于铰链线下方的中心，与升降副翼伺服连杆成一线。部件应与升降副翼顶面齐平，大约高出表面 0.5 毫米。配合应紧密，但不要用力过猛地压入控制喇叭，否则可能会分裂打印层并造成损坏。如果太紧，请小心地从升降副翼的插槽中雕刻掉任何毛刺或过度挤压，或将控制喇叭打磨得更薄。使用氰基丙烯酸酯将控制喇叭部件 (2) 粘合到每个升降副翼（左翼和右翼）中。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-5.png" title="图 5-升降副翼控制喇叭安装"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 5</font></font></a></p>
 </li>
 <li>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 Du-Bro 尼龙迷你铰链件（每机翼 3 个，Du-Bro SKU#118）粘到每个升降副翼铰链的凹槽中。热熔胶或氰基丙烯酸酯应该有效。3M™ Transpore™ 医用胶带也是一种可行的铰链加固解决方案，可以现在使用，也可以在构建过程中稍后使用。</font></font></p>
 </li>
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻轻打磨粘合的尾翼/尾部接口表面，直至光滑平整/齐平。对机身/机头进行试装，以确认接头正确齐平，然后使用氰基丙烯酸酯粘合到机身/机头。放在一边固化。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-6.png" title="图 6-尾翼/尾部附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 6</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻轻打磨粘合的尾翼/尾部接口表面，直至光滑平整/齐平。对机身/机头进行试装，以确认接头正确齐平，然后使用氰基丙烯酸酯粘合到机身/机头。放在一边固化。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-6.png" title="图 6-尾翼/尾部附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 6</font></font></a></p>
 </li>
 </ol>
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-5.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-5.png" alt="图 5" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-5.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-5.png" alt="图 5" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 5. 升降舵控制喇叭安装（从顶部插入插槽）</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-6.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-6.png" alt="图 6" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-6.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-6.png" alt="图 6" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 6. 尾翼/尾部附件</font></font></td>
   </tr>
 </tbody></table> 
 <ol start="8" dir="auto">
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将发动机舱对的两半粘合在一起；</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里要小心！</font></font></strong><font style="vertical-align: inherit;"></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个发动机舱由一个和一块</font><font style="vertical-align: inherit;">组成</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。总共应该有四个发动机舱部件，每个部件都是独一无二的：一个</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是非镜像的，一个</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是镜像的。没有</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于螺柱臂的切口，而有</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。这些</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部件始终最靠近飞机的中心机身，并且这些</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部件始终在外侧与伺服器对齐。使用氰基丙烯酸酯尽可能小心和精确地将各部件粘合在一起。放在一边固化。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-7.png" title="图 7-发动机舱两半粘接"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 7</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将发动机舱对的两半粘合在一起；</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里要小心！</font></font></strong><font style="vertical-align: inherit;"></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个发动机舱由一个和一块</font><font style="vertical-align: inherit;">组成</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。总共应该有四个发动机舱部件，每个部件都是独一无二的：一个</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是非镜像的，一个</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是镜像的。没有</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于螺柱臂的切口，而有</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。这些</font></font><code>_A</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部件始终最靠近飞机的中心机身，并且这些</font></font><code>_B</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部件始终在外侧与伺服器对齐。使用氰基丙烯酸酯尽可能小心和精确地将各部件粘合在一起。放在一边固化。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-7.png" title="图 7-发动机舱两半粘接"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 7</font></font></a></p>
 </li>
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻轻打磨已完成的机身/机身上的两个翼根接口表面，直到平齐光滑。试装碳纤维翼梁，并确认其没有被任一机翼的翼梁轴上的任何瑕疵所阻碍。如果有瑕疵，请发挥创造力；通常用力戳一下翼梁就可以清除瑕疵，而不会损坏 3D 打印的轴。如果翼梁没有完全填满翼梁轴（内径 7 毫米），例如碳翼梁是 5 毫米圆管，则临时制作垫片或其他填充物以使配合紧密，例如用胶带包裹翼梁的两端和靠近中心的位置，以便翼梁进入中央机身腔。在翼梁存在以提供对齐的情况下，将两个机翼试装到各自的表面上，以确认接头正确平齐。将翼梁置于中心，使其均等地延伸到左右机翼。 （640 毫米是支撑的最长翼梁长度。较短的翼梁也可以，只要它居中即可。）拆下机翼。此时，如果需要，可以将翼梁粘合到机身上。（如果您计划以后重复使用翼梁，则可以不使用任何粘合剂安装翼梁，例如如果飞机报废但翼梁幸存下来。）使用氰基丙烯酸酯将左翼或右翼粘合到机身（不建议同时连接两者）。放在一边固化。当第一个机翼固化后，粘合第二个机翼并放在一边固化。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-8.png" title="图 8 - 翼部附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 8</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻轻打磨已完成的机身/机身上的两个翼根接口表面，直到平齐光滑。试装碳纤维翼梁，并确认其没有被任一机翼的翼梁轴上的任何瑕疵所阻碍。如果有瑕疵，请发挥创造力；通常用力戳一下翼梁就可以清除瑕疵，而不会损坏 3D 打印的轴。如果翼梁没有完全填满翼梁轴（内径 7 毫米），例如碳翼梁是 5 毫米圆管，则临时制作垫片或其他填充物以使配合紧密，例如用胶带包裹翼梁的两端和靠近中心的位置，以便翼梁进入中央机身腔。在翼梁存在以提供对齐的情况下，将两个机翼试装到各自的表面上，以确认接头正确平齐。将翼梁置于中心，使其均等地延伸到左右机翼。 （640 毫米是支撑的最长翼梁长度。较短的翼梁也可以，只要它居中即可。）拆下机翼。此时，如果需要，可以将翼梁粘合到机身上。（如果您计划以后重复使用翼梁，则可以不使用任何粘合剂安装翼梁，例如如果飞机报废但翼梁幸存下来。）使用氰基丙烯酸酯将左翼或右翼粘合到机身（不建议同时连接两者）。放在一边固化。当第一个机翼固化后，粘合第二个机翼并放在一边固化。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-8.png" title="图 8 - 翼部附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 8</font></font></a></p>
 </li>
 </ol>
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-7.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-7.png" alt="图 7" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-7.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-7.png" alt="图 7" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 7. 发动机舱两半粘接</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-8.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-8.png" alt="图 8" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-8.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-8.png" alt="图 8" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 8. 机翼附件</font></font></td>
   </tr>
 </tbody></table> 
 <ol start="10" dir="auto">
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将每个发动机支架（倾斜支架/吊舱）与其各自的完整机舱进行试装。根据需要打磨或修整，使发动机支架能够完全向前倾斜，并能够向上倾斜超过 90 度。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-9.png" title="图 9 - 机舱口袋精加工"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 9</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将每个发动机支架（倾斜支架/吊舱）与其各自的完整机舱进行试装。根据需要打磨或修整，使发动机支架能够完全向前倾斜，并能够向上倾斜超过 90 度。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-9.png" title="图 9 - 机舱口袋精加工"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 9</font></font></a></p>
 </li>
 <li>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（机舱非滚珠轴承版本）对于每个机舱，其各自的电机支架对齐并存在，使用 1.58 毫米（1/16 英寸，62.5 密耳）钻头进行铰孔（钻孔至尺寸）。 （应为要安装的铰链杆直径的 85% 至 90%。在这种情况下，铰链杆直径为 1.84 毫米或 72 密耳。）将电机支架和机舱放在一起。通过使用磨床或砂轮磨尖，将一段铰链杆调整为最终精密铰孔工具。使用这种临时铰孔工具将每个机舱支架对中的孔铰孔至最终直径 1.84 毫米（72 密耳）。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-10.png" title="图 10 - 轴孔和螺栓孔铰孔"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 10</font></font></a></p>
@@ -698,10 +567,10 @@ Supporting Devices and Parts
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-9.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-9.png" alt="图 9" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-9.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-9.png" alt="图 9" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 9. 发动机舱口袋精加工</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-10.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-10.png" alt="图 10" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-10.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-10.png" alt="图 10" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 10. 轴孔和螺栓孔铰孔</font></font></td>
   </tr>
 </tbody></table> 
@@ -719,27 +588,27 @@ Supporting Devices and Parts
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于每个电机支架，如果您使用推荐的 1/16 球头螺栓，请将电机支架连杆支架孔扩孔至 1.19 毫米（3/64 英寸，47 密耳）。这可能会扩孔以适应更大的球头螺栓螺纹尺寸，例如 2-56（1.84 毫米，72 密耳），在这种情况下请谨慎判断。扩孔应约为要安装的螺纹球连杆大直径的 80%。将螺纹球连杆安装到连杆支架孔中。电机支架可承受高达 8 毫米的螺纹球头螺栓深度。</font></font></p>
 </li>
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将每个发动机舱粘合到各自的机翼上；注意球形连杆应与各自的伺服连杆槽/孔对齐。氰基丙烯酸酯在 PLA 上效果很好，但由于这是飞机上承重较高的结构之一，因此环氧树脂也是候选材料。在胶水固化时，验证对齐情况并调整/调整位置。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-11.png" title="图 11 - 机舱附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 11</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将每个发动机舱粘合到各自的机翼上；注意球形连杆应与各自的伺服连杆槽/孔对齐。氰基丙烯酸酯在 PLA 上效果很好，但由于这是飞机上承重较高的结构之一，因此环氧树脂也是候选材料。在胶水固化时，验证对齐情况并调整/调整位置。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-11.png" title="图 11 - 机舱附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 11</font></font></a></p>
 </li>
 <li>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将垂直尾翼的下部和上部粘合在一起。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-13.png" title="图 13 - 船底板连接"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 13</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（下部有时称为“翼板”。）将两个垂直尾翼粘合到各自的机翼上。</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-12.png" title="图 12 - 垂直稳定器附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 12</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">氰基丙烯酸酯应该足够了。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将垂直尾翼的下部和上部粘合在一起。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-13.png" title="图 13 - 船底板连接"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 13</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（下部有时称为“翼板”。）将两个垂直尾翼粘合到各自的机翼上。</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-12.png" title="图 12 - 垂直稳定器附件"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图 12</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">氰基丙烯酸酯应该足够了。</font></font></p>
 </li>
 </ol>
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-11.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-11.png" alt="图 11" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-11.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-11.png" alt="图 11" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 11. 发动机舱附件</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-12.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-12.png" alt="图 12" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-12.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-12.png" alt="图 12" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 12.垂直稳定器附件</font></font></td>
   </tr>
   <tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-13.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-13.png" alt="图 13" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-13.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-13.png" alt="图 13" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 13. 船底板附件</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-14.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-14.png" alt="图 14" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-14.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-14.png" alt="图 14" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 14. 连杆和运动</font></font></td>
   </tr>
 </tbody></table> 
