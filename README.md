@@ -683,10 +683,10 @@ Supporting Devices and Parts
 <table>
   <tbody><tr>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-15.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-15.png" alt="图 15" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-15.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-15.png" alt="图 15" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 15.螺旋桨旋转方向</font></font></td>
     <td>
-      <a target="_blank" rel="noopener noreferrer" href="/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-16.png"><img src="/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-16.png" alt="图 16" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/doc-Documentation/Figure-16.png"><img src="https://github.com/StephenCarlson/MiniHawk-VTOL/raw/master/doc-Documentation/Figure-16.png" alt="图 16" height="240" width="auto" style="max-width: 100%;"></a><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
       图 16. 质心</font></font></td>
   </tr>
 </tbody></table> 
@@ -994,7 +994,7 @@ Supporting Devices and Parts
 </table>
 <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArduPlane 参数</font></font><a name="user-content-arduplane-parameters"></a></h2><a id="user-content-arduplane-parameters-" class="anchor" aria-label="永久链接：ArduPlane 参数" href="#arduplane-parameters-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下面的参数文件代表使用 mRo PixRacer Pro 飞行控制器的典型 MiniHawk-VTOL 上使用的设置。基本设置应适用于任何与 ArduPlane 兼容的飞行控制器，例如 Matek F405-WING 或类似产品，但需要进行一些调整。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警告！</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果意外连接，现代 ESC 协议（例如 OneShot 或 DShot）无法与伺服器很好地配合使用。伺服器最多会过滤掉数据包，但在某些情况下伺服器会烧坏。不要将伺服器插入 ESC 输出！</font></font></p>
-<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mRo PixRacer Pro：</font></font><a href="/StephenCarlson/MiniHawk-VTOL/blob/master/cfg-Config/ArduPlane_MiniHawk_mRo_PixRacerPro.param"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArduPlane_MiniHawk_mRo_PixRacerPro.param</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mRo PixRacer Pro：</font></font><a href="https://github.com/StephenCarlson/MiniHawk-VTOL/blob/master/cfg-Config/ArduPlane_MiniHawk_mRo_PixRacerPro.param"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArduPlane_MiniHawk_mRo_PixRacerPro.param</font></font></a></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虽然上述参数文件有超过 1100 个参数，但下面将检查一些基本参数：</font></font></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>| Parameter,Value        | Notes                                                      |
 | ---------------------- | ---------------------------------------------------------- |
@@ -1147,163 +1147,7 @@ Supporting Devices and Parts
 | WP_LOITER_RAD,60       | 60 meter radius for loiter typical                         |
 | WP_RADIUS,40           | 40 meter waypoint radius typical                           |
 </code></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="| Parameter,Value        | Notes                                                      |
-| ---------------------- | ---------------------------------------------------------- |
-| ARSPD_FBW_MAX,32       | Full-Throttle produces around 32 to 34 m/s sprint velocity |
-| ARSPD_FBW_MIN,17       | Stall is near 15 m/s for a typical MiniHawk-VTOL           |
-| ARSPD_RATIO,1.9936     | Make sure this is calibrated for your aircraft             |
-| ARSPD_TUBE_ORDER,0     | While this can be automatic (3), manually set is better    |
-| ARSPD_TYPE,1           | MS4525D0 Pressure Sensor, adjust as needed                 |
-| ARSPD_USE,1            | Force the aircraft to use the pitot probe, no synthetic    |
-| AUTOTUNE_LEVEL,7       | 7 or 8 works best for the MiniHawk-VTOL                    |
-| EK2_ENABLE,0           | EKF2 is Disabled, in favor of EKF3                         |
-| EK3_ENABLE,1           | EKF3 was used for most flight testing of the design        |
-| FLTMODE_CH,5           | Flight Mode Channel                                        |
-| FLTMODE1,5             | FBWA, 3-position switch &quot;Down&quot; detent                      |
-| FLTMODE2,19            | QLOITER, 3-position switch &quot;Middle&quot; detent                 |
-| FLTMODE3,17            | QSTABILIZE, 3-position switch &quot;Up&quot; detent                  |
-| FLTMODE4,17            |                                                            |
-| FLTMODE5,17            |                                                            |
-| FLTMODE6,10            | AUTO, 2nd R/C switch that overrides the 3-position switch  |
-| FS_LONG_ACTN,1         | Failsafe Settings used in development                      |
-| FS_LONG_TIMEOUT,3      |                                                            |
-| FS_SHORT_ACTN,1        |                                                            |
-| FS_SHORT_TIMEOUT,1     |                                                            |
-| KFF_RDDRMIX,0          | Remove any possible rudder mixing                          |
-| LIM_PITCH_MAX,2000     | Pitch and Roll Angle Limits                                |
-| LIM_PITCH_MIN,-2500    |                                                            |
-| LIM_ROLL_CD,5500       |                                                            |
-| MIXING_GAIN,0.5        | Elevon Stick Mixing, value here should be default          |
-| NAVL1_PERIOD,11        | More aggressive navigation is possible, 11 to 14 tested    |
-| PTCH_RATE_D,0          | Pitch PIDs, these values are mild, AUTOTUNE will increase  |
-| PTCH_RATE_FF,0.345     |                                                            |
-| PTCH_RATE_FLTD,4       |                                                            |
-| PTCH_RATE_FLTE,7       |                                                            |
-| PTCH_RATE_FLTT,1.5     |                                                            |
-| PTCH_RATE_I,0.15       |                                                            |
-| PTCH_RATE_IMAX,0.666   |                                                            |
-| PTCH_RATE_P,0.04       |                                                            |
-| PTCH_RATE_SMAX,150     |                                                            |
-| PTCH2SRV_RLL,1         |                                                            |
-| PTCH2SRV_RMAX_DN,90    |                                                            |
-| PTCH2SRV_RMAX_UP,90    |                                                            |
-| PTCH2SRV_TCONST,0.4    |                                                            |
-| Q_A_ACCEL_P_MAX,110000 | VTOL R/P/Y Angular accelerations used in development       |
-| Q_A_ACCEL_R_MAX,110000 |                                                            |
-| Q_A_ACCEL_Y_MAX,27000  |                                                            |
-| Q_A_RAT_PIT_D,0.0005   | VTOL Pitch PIDs                                            |
-| Q_A_RAT_PIT_FF,0       |                                                            |
-| Q_A_RAT_PIT_FLTD,15    |                                                            |
-| Q_A_RAT_PIT_FLTE,0     |                                                            |
-| Q_A_RAT_PIT_FLTT,20    |                                                            |
-| Q_A_RAT_PIT_I,0.15     |                                                            |
-| Q_A_RAT_PIT_IMAX,0.5   |                                                            |
-| Q_A_RAT_PIT_P,0.15     |                                                            |
-| Q_A_RAT_PIT_SMAX,0     |                                                            |
-| Q_A_RAT_RLL_D,0.003    | VTOL Roll PIDs                                             |
-| Q_A_RAT_RLL_FF,0       |                                                            |
-| Q_A_RAT_RLL_FLTD,15    |                                                            |
-| Q_A_RAT_RLL_FLTE,0     |                                                            |
-| Q_A_RAT_RLL_FLTT,20    |                                                            |
-| Q_A_RAT_RLL_I,0.25     |                                                            |
-| Q_A_RAT_RLL_IMAX,0.5   |                                                            |
-| Q_A_RAT_RLL_P,0.45     |                                                            |
-| Q_A_RAT_RLL_SMAX,0     |                                                            |
-| Q_A_RAT_YAW_D,0.02     | VTOL Yaw PIDs                                              |
-| Q_A_RAT_YAW_FF,0.1     |                                                            |
-| Q_A_RAT_YAW_FLTD,0     |                                                            |
-| Q_A_RAT_YAW_FLTE,10    |                                                            |
-| Q_A_RAT_YAW_FLTT,20    |                                                            |
-| Q_A_RAT_YAW_I,0.1      |                                                            |
-| Q_A_RAT_YAW_IMAX,0.5   |                                                            |
-| Q_A_RAT_YAW_P,0.6      |                                                            |
-| Q_A_RAT_YAW_SMAX,0     |                                                            |
-| Q_ANGLE_MAX,3000       | VTOL Pitch and Roll Angle Limits                           |
-| Q_ASSIST_ALT,0         | Disable VTOL Assist where possible                         |
-| Q_ASSIST_ANGLE,0       |                                                            |
-| Q_ASSIST_DELAY,0.5     |                                                            |
-| Q_ASSIST_SPEED,0       |                                                            |
-| Q_AUTOTUNE_AGGR,0.1    | VTOL Autotune settings used in development                 |
-| Q_AUTOTUNE_AXES,2      |                                                            |
-| Q_AUTOTUNE_MIN_D,0.001 |                                                            |
-| Q_ENABLE,1             | VTOL obviously is enabled for the MiniHawk-VTOL            |
-| Q_FRAME_CLASS,7        | Tricopter Configuration                                    |
-| Q_FW_LND_APR_RAD,85    | 85 meters for Fixed-wing to VTOL threshold                 |
-| Q_M_HOVER_LEARN,2      | Hover throttle setpoint learning                           |
-| Q_M_PWM_TYPE,4         | DShot 150 is sufficient and noise-resistant                |
-| Q_M_SPIN_ARM,0.05      | 5% Throttle when armed                                     |
-| Q_M_SPIN_MAX,1         | 100% Throttle max ESC RPM command                          |
-| Q_M_SPIN_MIN,0.1       | 10% Throttle for lowest ESC RPM                            |
-| Q_M_SPOOL_TIME,0.5     | 500ms spool time                                           |
-| Q_M_THST_EXPO,0.25     | Throttle Expo                                              |
-| Q_M_YAW_HEADROOM,50    | 50us Yaw Headroom                                          |
-| Q_M_YAW_SV_ANGLE,12    | &quot;12&quot; Degrees for Yaw lean angle                            |
-| Q_OPTIONS,1056         | Allow yaw actuation when disarmed, QRTL behavior           |
-| Q_RC_SPEED,490         | 490 Hz Motor Updates                                       |
-| Q_RTL_ALT,40           | RTL Behaviors in VTOL                                      |
-| Q_RTL_MODE,1           |                                                            |
-| Q_TILT_MASK,3          | Which motors are being tilted                              |
-| Q_TILT_MAX,55          | Transition angle while AirspeedWait is active              |
-| Q_TILT_RATE_DN,15      | Tilt Up/Down rates                                         |
-| Q_TILT_RATE_UP,75      |                                                            |
-| Q_TILT_TYPE,2          | Vectored Yaw Tilt Type                                     |
-| Q_TILT_YAW_ANGLE,14    | &quot;14&quot; degrees VTOL hover position                           |
-| Q_TRANS_FAIL,0         | Transition Timeout is disabled                             |
-| Q_TRANSITION_MS,1000   | Post-transition wait period                                |
-| Q_TRIM_PITCH,9         | Pitch offset between forward-flight and hover stance       |
-| Q_WVANE_GAIN,0.4       | 0.4 is a good value for this design                        |
-| RC7_OPTION,41          | Arming Switch, will disable motors if in flight/hover!     |
-| RCMAP_PITCH,2          | Roll/Pitch/Throttle/Yaw (AETR) controls ordering           |
-| RCMAP_ROLL,1           |                                                            |
-| RCMAP_THROTTLE,3       |                                                            |
-| RCMAP_YAW,4            |                                                            |
-| RLL_RATE_D,0           | Roll PIDs, these values are mild, AUTOTUNE will increase   |
-| RLL_RATE_FF,0.345      |                                                            |
-| RLL_RATE_FLTD,4        |                                                            |
-| RLL_RATE_FLTE,7        |                                                            |
-| RLL_RATE_FLTT,3        |                                                            |
-| RLL_RATE_I,0.15        |                                                            |
-| RLL_RATE_IMAX,0.666    |                                                            |
-| RLL_RATE_P,0.08        |                                                            |
-| RLL_RATE_SMAX,150      |                                                            |
-| RLL2SRV_RMAX,90        |                                                            |
-| RLL2SRV_TCONST,0.4     |                                                            |
-| RTL_AUTOLAND,2         | Fixed-wing to VTOL landing behavior in RTL                 |
-| RUDD_DT_GAIN,3         | Very mild differential thrust mixing on forward motors     |
-| SCALING_SPEED,15       | 15 m/s should be default                                   |
-| SCHED_LOOP_RATE,300    | 300 Hz was used in development                             |
-| SERVO1_FUNCTION,33     | Right BLDC Motor                                           |
-| SERVO2_FUNCTION,34     | Left BLCD Motor                                            |
-| SERVO3_FUNCTION,0      | No Connection, 5V BEC connected here for mRo PixRacer Pro  |
-| SERVO4_FUNCTION,36     | Rear BLCD Motor                                            |
-| SERVO5_FUNCTION,75     | Left Tilt Servo                                            |
-| SERVO5_MAX,1800        | MAX and MIN values are hand calibrated, close to 1920/1080 |
-| SERVO5_MIN,1200        | Values of 1200/1800 here to prevent damage on new builds   |
-| SERVO5_REVERSED,0      | Left Tilt is normal rotation direction                     |
-| SERVO6_FUNCTION,76     | Right Tilt Servo                                           |
-| SERVO6_MAX,1800        |                                                            |
-| SERVO6_MIN,1200        |                                                            |
-| SERVO6_REVERSED,1      | Right Tilt is reversed rotation direction                  |
-| SERVO7_FUNCTION,77     | Left Elevon Servo                                          |
-| SERVO7_REVERSED,1      | Left Elevon is reverse rotation direction                  |
-| SERVO8_FUNCTION,78     | Right Elevon Servo                                         |
-| SERVO8_REVERSED,0      | Right Elevon is normal rotation direction                  |
-| STAB_PITCH_DOWN,2      | 2 should be default, pitch behavior on zero-throttle       |
-| STALL_PREVENTION,0     | May be enabled, was disabled for development               |
-| STICK_MIXING,1         | How pilot inputs are fused in autonomous modes             |
-| TECS_PTCH_FF_V0,19     | 19 m/s cruise                                              |
-| TRIM_ARSPD_CM,1900     | 19 m/s cruise                                              |
-| TRIM_PITCH_CD,350      | Offset between level-flight pitch angle and tray angle     |
-| TRIM_THROTTLE,55       | Typical 19 m/s cruise throttle                             |
-| WP_LOITER_RAD,60       | 60 meter radius for loiter typical                         |
-| WP_RADIUS,40           | 40 meter waypoint radius typical                           |" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评论：</font></font><a name="user-content-arduplane-remarks"></a></h2><a id="user-content-remarks-" class="anchor" aria-label="永久链接： 备注：" href="#remarks-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArduPlane v4.1.0 和 v4.2.0dev 用于开发版本 2 MiniHawk-VTOL。“开箱即用”，ArduPlane 支持这种设计的三旋翼倾转旋翼机，并且只需设置参数即可启用 VTOL 行为。</font></font></p>
